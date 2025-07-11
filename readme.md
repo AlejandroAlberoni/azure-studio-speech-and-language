@@ -1,7 +1,7 @@
 # Azure Cloud
-```
+
 O propósito deste repo foi somente explorar Azure Speak Studio e Azure Language Studio, e aplicar em algum contexto prático.
-```
+
 
 ## Azure Speak Studio
 
@@ -17,8 +17,10 @@ O Azure Language Studio é uma plataforma da Microsoft voltada ao **Processament
 
 Este é um resumo da minha exploração na Azure, mais específicamente, executando uma Análise de Sentimentos utilizando o serviço Cloud da Azure [Language Studio](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://language.cognitive.azure.com/&ved=2ahUKEwjTkp__2LWOAxU9DLkGHXz3B4cQFnoECAoQAQ&usg=AOvVaw0RIrbRgryzFjxZXgFWxWWt) no dataset [Amazon Fine Food Reviews](www.kaggle.com/datasets/snap/amazon-fine-food-reviews).
 
-O tipo de **Análise de Sentimentos** escolhido foi o **nível de Documento**, porém, para uma análise mais detalhada e com insights mais pontuais precisariamos o **nível de Aspecto**. Pelo dataset estar composto de múltiplas reviews sem um contexto em comum, apenas sumarizei os resultados, o notebook pode ser encontado [aqui](). 
+O tipo de **Análise de Sentimentos** escolhido foi o **nível de Documento**, porém, para uma análise mais detalhada e com insights mais pontuais precisariamos o **nível de Aspecto**. Pelo dataset estar composto de múltiplas reviews sem um contexto em comum, apenas sumarizei os resultados, o notebook pode ser encontado [aqui](https://github.com/AlejandroAlberoni/azure-studio-speech-and-language/blob/main/AmazonFineFoodReviews_AzureSentimentAnalysis.ipynb). 
 
 
 
-
+<p align="center">
+<img width="515" height="417" alt="AmazonFineFoodReviewsSentimentPolarityDist" src="https://github.com/user-attachments/assets/e4012afe-3716-49da-bb3c-58dd68f9ce1c" />
+</p>
